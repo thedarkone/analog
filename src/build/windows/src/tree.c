@@ -775,6 +775,7 @@ void Bnextname(char **name, char **nameend, char *whole, void *arg) {
 	((*name = strstr(whole, "Firefox")) != NULL && (len = 7)) ||
 	((*name = strstr(whole, "Chimera")) != NULL && (len = 7)) ||
 	((*name = strstr(whole, "Camino")) != NULL && (len = 6)) ||
+	((*name = strstr(whole, "Chrome")) != NULL && (len = 6)) ||
 	((*name = strstr(whole, "Safari")) != NULL && (len = 6)) ||
 	((*name = strstr(whole, "WebTV")) != NULL && (len = 5)) ||
 	((*name = strstr(whole, "Opera")) != NULL && (len = 5)) ||
