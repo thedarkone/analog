@@ -916,8 +916,10 @@ void Pnextname(char **name, char **nameend, char *whole, void *arg) {
     }
 
     /* Now non-Windows operating systems */
-    else if ((c = strstr(whole, "Mac")) != NULL)
-	*name = "Macintosh";
+    else if (strstr(whole, "Mac OS X") != NULL)
+      *name = "Mac OS:Mac OS X";
+    else if (strstr(whole, "Mac") != NULL)
+      *name = "Mac OS:Unknown Mac OS";
     else if (strstr(whole, "Linux") != NULL || strstr(whole, "linux") != NULL)
       *name = "Unix:Linux";
     else if (strstr(whole, "BSD") != NULL)
