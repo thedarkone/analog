@@ -1,0 +1,12 @@
+h1. Analog
+
+This fork adds recognition for Windows Vista/2003/2008 and Google Chrome browser.
+
+h2. Credit
+
+All post 6.0 code taken from: "http://iddl.vt.edu/~jackie/analog/":http://iddl.vt.edu/~jackie/analog/
+
+h2. Links
+
+The Readme for analog can be found in the file docs/Readme.html or at
+"http://www.analog.cx/docs/Readme.html":http://www.analog.cx/docs/Readme.html
